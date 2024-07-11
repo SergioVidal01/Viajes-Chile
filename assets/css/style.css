@@ -19,3 +19,9 @@ body, h2{
 .card-body {
     background-color:#00A9AF;
 }
+
+.btn {
+    background-color:#00A9AF;
+    color: white;
+}
+
