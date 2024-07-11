@@ -1,6 +1,21 @@
+body, h2{
+    background-color: black;
+    color: white;
+}
+
 #imageNavbar {
 
-    width: 30px;
-    
+    width: 30px;  
+}
 
+#seccionCard img {
+   height: 130px;
+}
+
+.card-title, .card-text {
+    color: white;
+}
+
+.card-body {
+    background-color:#00A9AF;
 }
