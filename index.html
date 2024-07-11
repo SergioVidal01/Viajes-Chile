@@ -41,10 +41,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-            <a class="nav-link" href="#">quienes somos</a>
-            <a class="nav-link" href="#">destacados</a>
-            <a class="nav-link" href="#">contacto</a>
+            <a class="nav-link active" aria-current="page" href="#carouselExample">Inicio</a>
+            <a class="nav-link" href="#quienesSomos">quienes somos</a>
+            <a class="nav-link" href="#destacados">destacados</a>
+            <a class="nav-link" href="#contacto">contacto</a>
           </div>
         </div>
       </div>
@@ -93,8 +93,10 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-
-    <h2 class="text-center">DESTACADOS</h2>
+    <h2 id="quienesSomos"class="text-center">QUIENES SOMOS</h2>
+  <hr>
+  
+    <h2 id="destacados"class="text-center">DESTACADOS</h2>
    <hr>
     <section
       id="seccionCard"
@@ -155,7 +157,25 @@
       </div>
     </section>
     <h2 class="text-center">CONTACTO</h2>
-    
+    <section class="container-fluid" id="contacto">
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <div class="col-auto">
+      <button type="submit" class="btn btn-info mb-3">Enviar</button>
+    </div>
+  </section>
+
+
 
     <!-- Aquí estan las herramientas de boostrap y jquery con sus respectivos CDN -->
     <script
