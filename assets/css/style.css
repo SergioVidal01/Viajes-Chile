@@ -1,6 +1,17 @@
-body, h2{
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+    html {
+        scroll-behavior: smooth;
+      }
+
+body {
     background-color: black;
     color: white;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    
 }
 
 #imageNavbar {
@@ -41,6 +52,29 @@ article div p {
 .icon-section {
     margin: 10px;
 }
+
+footer { 
+    
+    background-color:#00A9AF;
+   
+}
+footer h3 {
+   
+   padding-top: 20px;
+   
+}
+footer i {
+    color:white;
+    align-items: end;
+    margin-right: 1%;
+    
+}
+#iconFooter {
+margin-top: 20px;
+    margin-right: 100px;
+
+}
+
 
 
 
