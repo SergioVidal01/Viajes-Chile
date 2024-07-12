@@ -25,3 +25,22 @@ body, h2{
     color: white;
 }
 
+article div {
+    background-color:#00A9AF;
+    
+    text-align: center;
+    
+}
+
+article div p {
+    background-color:black;
+    justify-content: center;
+    
+}
+
+.icon-section {
+    margin: 10px;
+}
+
+
+
