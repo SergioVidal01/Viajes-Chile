@@ -1,8 +1,9 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
     html {
         scroll-behavior: smooth;
       }
+      @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
     background-color: black;
@@ -18,9 +19,14 @@ body {
 
     width: 30px;  
 }
-
+#seccionCard
+{
+    align-items:center
+}
 #seccionCard img {
    height: 130px;
+  
+   
 }
 
 .card-title, .card-text {
